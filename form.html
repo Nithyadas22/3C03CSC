@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+     <head>
+          <title>Application form</title>
+     </head>
+     <body>
+          <h1>Application form</h1>
+         <form>
+          <input type="text" name="name" placeholder="Your name" pattern="[a-zA-Z]+" title="Name should contain only letters" required/><br /><br />
+          DOB:<input type="Date"/><br /><br />
+          Gender:
+          Male<input type="radio" value="male" name="gender"/>
+          Female<input type="radio" value="female" name="gender"/>
+          Others<input type="radio" value="others" name="gender"/><br /><br />
+          <input type="text" placeholder="Father's name"/><br /><br />
+          <input type="text" placeholder="Your Address"/><br /><br />
+          <input type="email" placeholder="email address" required/><br /><br />
+          <input type="password" placeholder="your password" pattetn=".{8,}" title="password must contain 8 letters"/>
+          <input type="password" placeholder="confirm password"/><br /><br />
+          <input type="text" placeholder="mobile no:" pattern="\d{10}" title="Mobile no: should have 10 digits"/><br /><br />
+          <input type="submit" value="register"/>
+         </form>
+     </body>
+</html>
